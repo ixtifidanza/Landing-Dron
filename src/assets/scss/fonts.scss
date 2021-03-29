@@ -1,3 +1,4 @@
 @mixin font {
-    @include font("Roboto-Bold", "Roboto-Bold", "700", "normal");
+    @include font("Roboto-Bold", "Roboto-Bold", "700", "bold");
+    @include font("Montserrat-Regular", "Montserrat-Regular", "400", "normal");
 }
