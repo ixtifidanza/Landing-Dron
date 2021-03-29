@@ -3,3 +3,7 @@
 @import './blocks/nav';
 @import './blocks/header';
 @import './blocks/static';
+@import 'nav';
+@import 'header';
+@import './pages/about/about';
+@import './pages/about/advantages';
