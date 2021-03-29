@@ -1,0 +1,27 @@
+.advantages {
+    &-title {
+        text-align: center;
+        font-size: 26px;
+        font-weight: bold;
+    }
+    
+    &-block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &-item {
+        width: 45%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 36px;
+        padding: 35px;
+        
+        box-shadow: 0 1px 7px rgba(138, 138, 138, 0.16);
+        &__text {
+            margin-left: 30px;
+        }
+    }
+
+}
