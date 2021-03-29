@@ -5,7 +5,13 @@
     background-size: cover;
     height: 100vh;
     &-block {
-        margin-top: 350px;
+        display: flex;
+        align-items: center;
+        &__title {
+            font-size: 60px;
+            margin-top: 177px;
+            margin-bottom: 47px;
+        }
         &__text {
             width: 657px;
             font-size: 20px;

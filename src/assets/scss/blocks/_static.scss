@@ -1,0 +1,24 @@
+.static {
+    margin-bottom: 136px;
+    &-block {
+        margin-top: 100px;
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 0 5px 5px rgba(37, 0, 247, 0.2);
+        padding: 20px 35px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__item {
+            display: flex;
+            align-items: center;
+        }
+    }
+    &__res {
+        margin-left: 36px;
+    }
+    &-result {
+        font-size: 36px;
+        font-weight: bold;
+    }
+}
