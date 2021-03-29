@@ -1,0 +1,15 @@
+.header {
+    background: url(../img/bg-style.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    &-block {
+        margin-top: 350px;
+        &__text {
+            width: 657px;
+            font-size: 20px;
+            margin-bottom: 65px;
+        }
+    }
+}

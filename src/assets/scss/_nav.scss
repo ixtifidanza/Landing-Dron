@@ -1,0 +1,21 @@
+.navbar {
+    &-block {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__link {
+        color: #000;
+        margin-right: 35px;
+    }
+    &__btn {
+        font-weight: bold;
+        border-radius: 29px;
+        padding: 10px 18px;
+        &:hover {
+            background-color: #fff;
+            color: #2E71FE;
+        }
+    }
+}
