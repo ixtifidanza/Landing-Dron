@@ -5,4 +5,37 @@
         font-weight: bold;
         margin: 116px 0 129px 0; 
     }
+    &-block {       
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &-item {
+        width: 47%;
+        display: flex;
+        align-items: center;
+        background-color: #F1F1F1;
+        padding: 40px;
+        border-radius: 25px 25px 0 0;
+        margin: 15px;
+        &__text {
+           margin: 20px 0;
+           font-family: 'Montserrat', sans-serif; 
+           color: #7E7E7E;
+        }
+        &__title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #313131;
+        }
+        &__link {
+            font-family: 'Montserrat', sans-serif;
+            color: #41B834;
+            text-decoration: none;
+        }
+    }
+    
+
+    &-content  {
+        margin-left: 39px;
+    }
 }

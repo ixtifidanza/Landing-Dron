@@ -534,3 +534,47 @@ body {
     font-weight: bold;
     margin: 116px 0 129px 0;
 }
+
+.certificate-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.certificate-item {
+    width: 47%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #F1F1F1;
+    padding: 40px;
+    border-radius: 25px 25px 0 0;
+    margin: 15px;
+}
+
+.certificate-item__text {
+    margin: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #7E7E7E;
+}
+
+.certificate-item__title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #313131;
+}
+
+.certificate-item__link {
+    font-family: 'Montserrat', sans-serif;
+    color: #41B834;
+    text-decoration: none;
+}
+
+.certificate-content {
+    margin-left: 39px;
+}
