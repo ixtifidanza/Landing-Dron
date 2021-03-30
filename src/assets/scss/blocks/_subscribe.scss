@@ -1,0 +1,44 @@
+.subscribe {
+    background: url(../img/Subscribe-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    position: relative;
+    &-block {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &-title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 35px;
+    }
+    &-text {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        color: #5B5B5B;
+        text-align: center;
+        margin-top: 25px;
+    }
+    &-btn {
+        background-color: #41B834;
+        color: #fff;
+        &:focus {
+            box-shadow: none;
+        }
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.input-group {
+    width: 470px;
+    margin: 0 auto;
+    margin-top: 40px;
+}

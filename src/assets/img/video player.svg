@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="101" height="101" viewBox="0 0 101 101">
+  <g id="video_player" data-name="video player" transform="translate(-714.465 -3257.465)">
+    <circle id="Эллипс_2" data-name="Эллипс 2" cx="50.5" cy="50.5" r="50.5" transform="translate(714.465 3257.465)" fill="rgba(255,255,255,0.3)"/>
+    <circle id="Эллипс_28" data-name="Эллипс 28" cx="38.5" cy="38.5" r="38.5" transform="translate(726.465 3269.465)" fill="#fff"/>
+    <path id="Icon_awesome-play" data-name="Icon awesome-play" d="M27.286,13.8,4.655.425A3.069,3.069,0,0,0,0,3.08V29.832a3.083,3.083,0,0,0,4.655,2.655L27.286,19.115a3.083,3.083,0,0,0,0-5.311Z" transform="translate(754.316 3291.962)" fill="#0a3f71"/>
+  </g>
+</svg>

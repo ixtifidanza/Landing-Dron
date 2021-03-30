@@ -103,14 +103,15 @@ function libsCss() {
     return gulp.src([ //указываем, где брать исходники
         'node_modules/normalize.css/normalize.css',
         'node_modules/bootstrap/dist/css/bootstrap.min.css',
+        'node_modules/swiper/swiper-bundle.min.css',
+        // 'node_modules/slick-carousel/slick/slick.css',
+        // 'node_modules/slick-carousel/slick/slick-theme.css'
         // 'node_modules/flexboxgrid2/flexboxgrid2.css',
         // 'node_modules/pagepiling.js/dist/jquery.pagepiling.css',
         // 'node_modules/swiper/swiper-bundle.min.css',
-        // 'node_modules/font-awesome/css/font-awesome.css',
+        // 'node_modules/font-awesome/css/font-awesome.css',7
         // 'node_modules/wowjs/css/libs/animate.css',
         // 'node_modules/animate.css/animate.css',
-        // 'node_modules/slick-carousel/slick/slick.css',
-        // 'node_modules/slick-carousel/slick/slick-theme.css'
         // 'node_modules/magnific-popup/dist/magnific-popup.css',
     ])
     .pipe(concat('libs.min.css')) //склеиваем их в один файл с указанным именем
@@ -144,10 +145,11 @@ function libsJs() {
     return gulp.src([ //тут подключаем разные js в общую библиотеку. Отключите то, что вам не нужно.
         'node_modules/jquery/dist/jquery.js',
         'node_modules/bootstrap/dist/js/bootstrap.min.js',
+        'node_modules/swiper/swiper-bundle.min.js',
+        // 'node_modules/slick-carousel/slick/slick.js',
         // 'node_modules/pagepiling.js/dist/jquery.pagepiling.js',
         // 'node_modules/selectric/public/jquery.selectric.js',
         // 'node_modules/wowjs/dist/wow.js',
-        // 'node_modules/slick-carousel/slick/slick.js',
         // 'node_modules/swiper/swiper-bundle.min.js',
         // 'src/js/pageScrollToId.js'
         // 'node_modules/magnific-popup/dist/jquery.magnific-popup.js',
