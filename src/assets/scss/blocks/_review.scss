@@ -1,0 +1,45 @@
+.review {
+    background: url(../img/bg-style.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    &-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &__content {
+            margin-left: 100px;
+        }
+    }
+    &-title {
+        font-size: 42px;
+        font-weight: bold;
+        &__border {
+            border: 4px solid #41B834;
+            border-radius: 5px;
+            width: 115px;
+            margin-top: 34px;
+        }
+    }
+    &-profile {
+        display: flex;
+        align-items: center;
+        margin: 50px 0;
+        &__name {
+            color: #333333;
+            font-size: 25px;
+            margin-left: 27px;
+        }
+        &__job {
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+            color: #707070;
+        }
+    }
+    &-text {
+        color: #6B6B6B;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 50px;
+    }
+}
