@@ -76,8 +76,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
     position: relative;
+    height: 100vh;
 }
 
 .header__btn {
@@ -374,6 +374,9 @@ body {
 .subscribe-btn {
     background-color: #41B834;
     color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 12px 12px 0;
 }
 
 .subscribe-btn:focus {
@@ -390,10 +393,151 @@ body {
     box-shadow: none;
 }
 
+.form-control {
+    border-radius: 20px 0 0 20px;
+    padding: 15px;
+}
+
 .input-group {
     width: 470px;
     margin: 0 auto;
     margin-top: 40px;
+    -webkit-box-shadow: 0 23px 25px 0 rgba(1, 107, 1, 0.19);
+    box-shadow: 0 23px 25px 0 rgba(1, 107, 1, 0.19);
+    background: none;
+}
+
+.review {
+    background: url(../img/bg-style.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.review-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.review-block__content {
+    margin-left: 100px;
+}
+
+.review-title {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.review-title__border {
+    border: 4px solid #41B834;
+    border-radius: 5px;
+    width: 115px;
+    margin-top: 34px;
+}
+
+.review-profile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.review-profile__name {
+    color: #333333;
+    font-size: 25px;
+    margin-left: 27px;
+}
+
+.review-profile__job {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #707070;
+}
+
+.review-text {
+    color: #6B6B6B;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+}
+
+.footer {
+    background-color: #F2F6FF;
+    padding: 90px 0 40px 0;
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    list-style: none;
+    margin: 40px 0 50px 0;
+}
+
+.footer-nav__link {
+    color: #727272;
+    text-decoration: none;
+}
+
+.footer-nav__item {
+    margin: 0 15px;
+}
+
+.footer-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 40px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.footer-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    width: 200px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer-social__icon {
+    width: 50px;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid #727272;
+    border-radius: 50%;
 }
 
 .about-title {
@@ -453,9 +597,57 @@ body {
     margin-left: 30px;
 }
 
+.certificate {
+    margin-bottom: 150px;
+}
+
 .certificate-title {
     text-align: center;
     font-size: 60px;
     font-weight: bold;
     margin: 116px 0 129px 0;
+}
+
+.certificate-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.certificate-item {
+    width: 47%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #F1F1F1;
+    padding: 40px;
+    border-radius: 25px 25px 0 0;
+    margin: 15px;
+}
+
+.certificate-item__text {
+    margin: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #7E7E7E;
+}
+
+.certificate-item__title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #313131;
+}
+
+.certificate-item__link {
+    font-family: 'Montserrat', sans-serif;
+    color: #41B834;
+    text-decoration: none;
+}
+
+.certificate-content {
+    margin-left: 39px;
 }
