@@ -471,6 +471,75 @@ body {
     margin-bottom: 50px;
 }
 
+.footer {
+    background-color: #F2F6FF;
+    padding: 90px 0 40px 0;
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    list-style: none;
+    margin: 40px 0 50px 0;
+}
+
+.footer-nav__link {
+    color: #727272;
+    text-decoration: none;
+}
+
+.footer-nav__item {
+    margin: 0 15px;
+}
+
+.footer-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 40px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.footer-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    width: 200px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer-social__icon {
+    width: 50px;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid #727272;
+    border-radius: 50%;
+}
+
 .about-title {
     text-align: center;
     margin: 170px 0 130px 0;
@@ -526,6 +595,10 @@ body {
 
 .advantages-item__text {
     margin-left: 30px;
+}
+
+.certificate {
+    margin-bottom: 150px;
 }
 
 .certificate-title {
