@@ -14,8 +14,8 @@
 </head>
 
 <body>
-    <div class="container">
-        <header class="header">
+    <header class="header">
+        <div class="container">
             <nav class="navbar">
                 <div class="navbar-block">
                     <a href="index.html"><img src="assets/img/nav-logo.svg" alt=""></a>
@@ -42,10 +42,11 @@
                 </div>
                 <img class="header-block__img" src="assets/img/trubi_block.svg" alt="">
             </div>
-        </header>
+    </header>
 
 
-        <section class="static">
+    <section class="static">
+        <div class="container">
             <div class="static-block">
                 <div class="static-block__item">
                     <img src="assets/img/client-icon.svg" alt="">
@@ -72,17 +73,17 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="trusting">
+    <section class="trusting">
+        <div class="container">
             <h4 class="trusting-title">Почему нам доверяют</h4>
             <p class="trusting-subtitle">Повседневная практика показывает, что дальнейшее развитие <br> различных форм
                 деятельности играет важную роль.</p>
 
             <div class="trusting-block">
-
                 <div class="trusting-block__item">
-
                     <div class="trusting-block__card">
                         <div class="trusting-content">
                             <span class="trusting-content__title">10 лет на рынке</span>
@@ -150,9 +151,9 @@
                     </div>
                 </div>
             </div>
+        </div>
 
-        </section>
-    </div>
+    </section>
 
     <section class="video">
         <div class="video-block">
@@ -178,7 +179,7 @@
             </p>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                     <div class="swiper-slide">
+                    <div class="swiper-slide">
                         <div class="product-block">
                             <div class="product-item">
                                 <div class="product-item__img">
@@ -240,7 +241,7 @@
                                 <button type="button" class="btn product-item__btn">Cмотреть</button>
                             </div>
                         </div>
-                    </div> 
+                    </div>
                     <div class="swiper-slide">
                         <div class="product-block">
                             <div class="product-item">
@@ -417,41 +418,92 @@
                                     также начало повседневной работы по формированию позиции позволяет выполнять важные
                                     заданияиграет важную роль в формировании модели развития.
                                 </p>
-                                <img src="assets/img/review-stars.svg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="review-block">
-                            <div class="review-block__img">
-                                <img src="assets/img/review-img.png" alt="">
-                            </div>
-                            <div class="review-block__content">
-                                <h4 class="review-title">Отзывы клиентов</h4>
-                                <div class="review-title__border"></div>
-                                <div class="review-profile">
-                                    <img src="assets/img/review-avatar.png" alt="">
-                                    <div class="review-profile__name">
-                                        Стивен Смит
-                                        <p class="review-profile__job">Мастер</p>
+                                <div class="review-pag">
+                                    <img src="assets/img/review-stars.svg" alt="">
+                                    <div class="review-arrows">
+                                        <div class="review-arrows__arrow review-arrows__arrow--left">
+                                            <img src="assets/img/left-arrow.svg" alt="">
+                                        </div>
+                                        <div class="review-arrows__arrow review-arrows__arrow--right">
+                                            <img src="assets/img/right-arrow.svg" alt="">
+                                        </div>
                                     </div>
                                 </div>
-                                <p class="review-text">
-                                    Равным образом реализация намеченных плановых заданий требуют определения и
-                                    уточнения дальнейших направлений развития. Идейные соображения высшего порядка, а
-                                    также начало повседневной работы по формированию позиции позволяет выполнять важные
-                                    заданияиграет важную роль в формировании модели развития.
-                                </p>
-                                <img src="assets/img/review-stars.svg" alt="">
+
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="swiper-pagination"></div>
             </div>
-
+            
+          
         </div>
     </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">
+                <img src="assets/img/nav-logo.svg" alt="">
+            </div>
+            <ul class="footer-nav">
+                <li class="footer-nav__item">
+                    <a href="index.html" class="footer-nav__link">
+                        Главная
+                    </a>
+                </li>
+                <li class="footer-nav__item">
+                    <a href="index.html" class="footer-nav__link">
+                        О компании
+                    </a>
+                </li>
+                <li class="footer-nav__item">
+                    <a href="index.html" class="footer-nav__link">
+                        Продукция
+                    </a>
+                </li>
+                <li class="footer-nav__item">
+                    <a href="index.html" class="footer-nav__link">
+                        Сертификаты
+                    </a>
+                </li>
+                <li class="footer-nav__item">
+                    <a href="index.html" class="footer-nav__link">
+                        Контакты
+                    </a>
+                </li>
+            </ul>
+            <hr>
+            <div class="footer-footer">
+                <p>
+                    Copyright @ Milton Debnath 2020, All rights reserved
+                </p>
+                <ul class="footer-social">
+                    <li class="footer-social__item">
+                        <a href="#" class="footer-social__link">
+                            <div class="footer-social__icon">
+                                <img src="assets/img/facebook.svg" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="footer-social__item">
+                        <a href="#" class="footer-social__link">
+                            <div class="footer-social__icon">
+                                <img src="assets/img/instagram.svg" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="footer-social__item">
+                        <a href="#" class="footer-social__link">
+                            <div class="footer-social__icon">
+                                <img src="assets/img/telegram.svg" alt="">
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 
     <script src="assets/js/libs.min.js"></script>

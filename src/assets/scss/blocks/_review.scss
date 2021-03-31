@@ -36,10 +36,28 @@
             font-family: 'Montserrat', sans-serif;
             color: #707070;
         }
-    }
+    }  
     &-text {
         color: #6B6B6B;
         font-family: 'Montserrat', sans-serif;
         margin-bottom: 50px;
+    }
+    &-pag {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &-arrows {
+        display: flex; 
+        align-items: center;
+        justify-content: space-between;
+        width: 160px;
+        &__arrow {
+            padding: 15px 25px;
+            border-radius: 10px;
+            &:active {
+                background-color: #E4F5E3;
+            }
+        }
     }
 }

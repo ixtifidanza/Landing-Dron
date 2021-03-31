@@ -15,9 +15,21 @@ body {
     height: 100%;   
 }
 
+.swiper-container2 {
+    overflow: hidden;  
+}
 
 .swiper-pagination-bullet {
-	background: #016B43  repeat scroll 0 0;
+    outline: none;
+    background: #95BFB1 repeat scroll 0 0;
+    border: 1px solid #95BFB1;
+    height: 12px;
+    opacity: 1;
+    width: 12px;
+}
+
+.swiper-pagination-bullet-active {
+    background: #016B43  repeat scroll 0 0;
 	border: 1px solid #016B43;
 	border-radius: 10px;
 	display: inline-block;
@@ -28,10 +40,4 @@ body {
     transition: 0.2s;
 }
 
-.swiper-pagination-bullet-active {
-    background: none repeat scroll 0 0;
-    border: 1px solid #016B43;
-    height: 12px;
-    opacity: 1;
-    width: 12px;
-}
+

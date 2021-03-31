@@ -7,12 +7,12 @@ var swiper = new Swiper('.swiper-container', {
     },
   });
 
-  var swiper = new Swiper('.swiper-container2', {
+  var swiper2 = new Swiper('.swiper-container2', {
     spaceBetween: 30,
     loop: true,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
+    navigation: {
+      nextEl: '.review-arrows__arrow--right',
+      prevEl: '.review-arrows__arrow--left',
     },
   });
 
