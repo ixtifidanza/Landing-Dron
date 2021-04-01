@@ -1,10 +1,9 @@
 .footer {
     background-color: #F2F6FF;
-    padding: 90px 0 40px 0;
+    padding: 60px 0 20px 0;
     &-logo {
         text-align: center;
     }
-
     &-nav {
         display: flex;
         justify-content: center;
@@ -21,10 +20,14 @@
 
         }
     }
+    &__copy {
+        font-family: 'Montserrat', sans-serif;
+        color: #707070;
+    }
     &-footer {
         display: flex;
         justify-content: space-between;
-        margin-top: 40px;
+        margin-top: 20px;
         align-items: center;
     }
     

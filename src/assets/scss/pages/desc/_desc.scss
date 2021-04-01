@@ -1,4 +1,11 @@
 .desc {
+    &__price {
+        text-align: center;
+        margin-top: 15px;
+    }
+    &__name {
+        text-align: center;
+    }
     &-title {
         text-align: center;
         font-weight: bold;

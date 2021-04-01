@@ -424,6 +424,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 0;
+    position: relative;
 }
 
 .review-block {
@@ -505,11 +506,19 @@ body {
     -ms-flex-pack: justify;
     justify-content: space-between;
     width: 160px;
+    position: absolute;
+    right: 14%;
+    bottom: 18%;
+    z-index: 99;
 }
 
 .review-arrows__arrow {
     padding: 15px 25px;
     border-radius: 10px;
+}
+
+.review-arrows__arrow:focus {
+    outline: none;
 }
 
 .review-arrows__arrow:active {
@@ -518,7 +527,7 @@ body {
 
 .footer {
     background-color: #F2F6FF;
-    padding: 90px 0 40px 0;
+    padding: 60px 0 20px 0;
 }
 
 .footer-logo {
@@ -545,6 +554,11 @@ body {
     margin: 0 15px;
 }
 
+.footer__copy {
+    font-family: 'Montserrat', sans-serif;
+    color: #707070;
+}
+
 .footer-footer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -552,7 +566,7 @@ body {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 20px;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -697,6 +711,15 @@ body {
     margin-left: 39px;
 }
 
+.desc__price {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.desc__name {
+    text-align: center;
+}
+
 .desc-title {
     text-align: center;
     font-weight: bold;
@@ -733,6 +756,10 @@ body {
 
 .desc-item__img2 {
     margin-right: 140px;
+}
+
+.price {
+    margin: 100px 0 140px;
 }
 
 .price-title {
