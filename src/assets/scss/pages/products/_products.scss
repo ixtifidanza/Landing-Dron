@@ -1,0 +1,28 @@
+.products {
+    
+    &-title {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 116px;
+        font-size: 60px;
+    }
+    &-block {
+        margin-bottom: 110px;
+    }
+
+    &-text {
+        text-align: center;
+        font-family: 'Montserrat' sans-serif;
+        color: #7E7E7E;
+        margin: 28px 0 100px;
+        
+    }
+    &-card {
+        &__text {
+            text-align: center;
+            font-family: 'Montserrat' sans-serif;
+            color: #7E7E7E;
+        }    
+    }
+
+}

@@ -606,6 +606,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.footer {
+    margin-top: 155px;
+}
+
 .advantages-title {
     text-align: center;
     font-size: 26px;
@@ -751,4 +755,28 @@ body {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 15px;
+}
+
+.products-title {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 116px;
+    font-size: 60px;
+}
+
+.products-block {
+    margin-bottom: 110px;
+}
+
+.products-text {
+    text-align: center;
+    font-family: 'Montserrat' sans-serif;
+    color: #7E7E7E;
+    margin: 28px 0 100px;
+}
+
+.products-card__text {
+    text-align: center;
+    font-family: 'Montserrat' sans-serif;
+    color: #7E7E7E;
 }
