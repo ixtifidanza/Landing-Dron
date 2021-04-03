@@ -17,6 +17,9 @@
             font-size: 42px;
             font-weight: bold;
             color: #fff;
+            @media (max-width: 768px) {
+                font-size: 45px;
+            }
         }
         &__text {
             text-align: center;

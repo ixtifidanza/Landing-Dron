@@ -21,3 +21,14 @@
         }
     }
 }
+.navbar-toggler .collapsed {
+    &:focus {
+        outline: none;
+    }
+}
+
+.navbar-light .navbar-toggler  {
+    &:focus {
+        outline: none;
+    }
+}

@@ -31,12 +31,17 @@
         @media (max-width: 1200px) {
             width: 30%;
         }   
+        @media (max-width: 768px) {
+            width: 45%;
+            margin: 15px 5px;
+        }
         &__img  {
           background-color: #F1F1F1;  
           text-align: center;
           padding: 50px 55px; 
           display: flex;
           justify-content: center;
+     
         }
         &__text {
             text-align: center;

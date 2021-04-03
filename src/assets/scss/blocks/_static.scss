@@ -3,8 +3,11 @@
     @media (max-width: 1200px) {
         margin: 120px 0;
     }
-
-
+    &-text {
+        @media (max-width: 768px) {
+            font-size: 16px;
+        }
+    }
     &-block {
         background-color: #fff;
         border-radius: 20px;
@@ -16,6 +19,11 @@
         &__item {
             display: flex;
             align-items: center;
+            img {
+                @media (max-width: 768px) {
+                    width: 60px;
+                }
+            }
         }
     }
     &__res {
@@ -24,5 +32,8 @@
     &-result {
         font-size: 36px;
         font-weight: bold;
+        @media (max-width: 768px) {
+            font-size: 25px;
+        }
     }
 }

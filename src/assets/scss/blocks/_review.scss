@@ -22,10 +22,20 @@
                 }
             }
         }
+        @media (max-width: 768px) {
+            &__img {
+                img {
+                    width: 220px;
+                }
+            }
+    }
     }
     &-title {
         font-size: 42px;
         font-weight: bold;
+        @media (max-width: 768px) {
+            font-size: 35px;
+        }
         &__border {
             border: 4px solid #41B834;
             border-radius: 5px;
