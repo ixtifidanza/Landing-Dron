@@ -10,6 +10,9 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        @media (max-width: 1200px) {
+            margin-bottom: 100px;
+        }
     }
 
     &-item {
@@ -18,7 +21,6 @@
         align-items: center;
         margin-bottom: 36px;
         padding: 35px;
-        
         box-shadow: 0 1px 7px rgba(138, 138, 138, 0.16);
         &__text {
             margin-left: 30px;

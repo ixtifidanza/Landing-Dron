@@ -101,6 +101,7 @@ body {
 }
 
 .header-block__title {
+    font-weight: bold;
     font-size: 60px;
     margin-top: 140px;
     margin-bottom: 47px;
@@ -159,6 +160,7 @@ body {
 
 .trusting-title {
     text-align: center;
+    font-weight: bold;
     font-size: 40px;
 }
 
@@ -226,15 +228,6 @@ body {
 
 .trusting-icon--right {
     margin-left: 15px;
-}
-
-.trusting-img {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
 }
 
 .video {
@@ -329,6 +322,12 @@ body {
     background-color: #F1F1F1;
     text-align: center;
     padding: 50px 55px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .product-item__text {
@@ -601,7 +600,7 @@ body {
 
 .about-title {
     text-align: center;
-    margin: 170px 0 130px 0;
+    margin: 100px 0 130px 0;
     font-size: 60px;
     font-weight: bold;
 }
@@ -793,6 +792,12 @@ body {
 
 .products-block {
     margin-bottom: 110px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
 }
 
 .products-text {
@@ -802,8 +807,95 @@ body {
     margin: 28px 0 100px;
 }
 
+.products-card {
+    width: 33.3%;
+}
+
 .products-card__text {
     text-align: center;
     font-family: 'Montserrat' sans-serif;
     color: #7E7E7E;
+}
+
+@media (max-width: 1200px) {
+    .header {
+        height: auto;
+        padding-bottom: 100px;
+    }
+
+    .header-block__title {
+        font-size: 50px;
+    }
+
+    .header-block__text {
+        font-size: 16px;
+    }
+
+    .header-block__img {
+        width: 50%;
+        top: 20%;
+    }
+
+    .static {
+        margin: 120px 0;
+    }
+
+    .trusting-block__card {
+        width: 320px;
+    }
+
+    .trusting-content__title {
+        font-size: 18x;
+    }
+
+    .trusting-content__text {
+        font-size: 15px;
+    }
+
+    .product-item {
+        width: 30%;
+    }
+
+    .product-item__text {
+        font-size: 20px;
+    }
+
+    .subscribe-title {
+        font-size: 27px;
+    }
+
+    .subscribe-text {
+        font-size: 15px;
+    }
+
+    .review {
+        padding: 100px 0;
+    }
+
+    .review-block__img img {
+        width: 400px;
+    }
+
+    .review-arrows {
+        bottom: 11%;
+        right: 8%;
+    }
+
+    .footer {
+        margin-top: 0;
+    }
+
+    .advantages-block {
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header-block__img {
+        top: 30%;
+    }
+
+    .trusting-img img {
+        width: 300px;
+    }
 }

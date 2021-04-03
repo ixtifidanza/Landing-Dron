@@ -5,12 +5,22 @@
     background-size: cover;
     padding: 100px 0;
     position: relative;
+    @media (max-width: 1200px) {
+        padding: 100px 0;
+    }
     &-block {
         display: flex;
         justify-content: center;
         align-items: center;
         &__content {
             margin-left: 100px;
+        }
+        @media (max-width: 1200px) {
+            &__img {
+                img {
+                    width: 400px;
+                }
+            }
         }
     }
     &-title {
@@ -57,6 +67,10 @@
         right: 14%;
         bottom: 18%;
         z-index: 99;
+        @media (max-width: 1200px) {
+            bottom: 11%;
+            right: 8%;
+        }
         &__arrow {
             padding: 15px 25px;
             border-radius: 10px;
