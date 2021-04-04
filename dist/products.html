@@ -12,15 +12,22 @@
 
 <body>
     <div class="container">
-        <nav class="navbar">
-            <div class="navbar-block">
-                <a href="index.html"><img src="assets/img/nav-logo.svg" alt=""></a>
-                <div class="navbar-links offset-xl-3">
-                    <a class="navbar-brand navbar__link" href="index.html">Главная</a>
-                    <a class="navbar-brand navbar__link" href="about.html">О компании</a>
-                    <a class="navbar-brand navbar__link" href="products.html">Продукция</a>
-                    <a class="navbar-brand navbar__link" href="certificate.html">Сертификаты</a>
-                    <button type="button" class="btn btn-primary navbar__btn">Контакты</button>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="assets/img/nav-logo.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <a class="navbar-brand navbar__link" href="index.html">Главная</a>
+                        <a class="navbar-brand navbar__link" href="about.html">О компании</a>
+                        <a class="navbar-brand navbar__link" href="products.html">Продукция</a>
+                        <a class="navbar-brand navbar__link" href="certificate.html">Сертификаты</a>
+                        <button type="button" class="btn navbar__btn">Контакты</button>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -38,6 +45,7 @@
             </p>
 
             <div class="product-block products-block">
+                
                 <div class="product-item">
                     <div class="product-item__img">
                         <img src="assets/img/product-1.png" alt="">
@@ -50,7 +58,6 @@
                     </P>
                     <button type="button" class="btn product-item__btn">Cмотреть</button>
                 </div>
-
                 <div class="product-item">
                     <div class="product-item__img">
                         <img src="assets/img/mufta.svg" alt="">

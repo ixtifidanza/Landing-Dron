@@ -17,6 +17,13 @@
         &__link {
             color: #727272;
             text-decoration: none;
+            @media (max-width: 568px) {
+                font-size: 13px;
+            }
+            @media (max-width: 425px) {
+                font-size: 8px;
+            }
+
         }
         
         &__item {
@@ -27,6 +34,9 @@
     &__copy {
         font-family: 'Montserrat', sans-serif;
         color: #707070;
+        @media (max-width: 568px) {
+            font-size: 12px;
+        }
     }
     &-footer {
         display: flex;

@@ -7,6 +7,9 @@
         @media (max-width: 768px) {
             font-size: 16px;
         }
+        @media (max-width: 568px) {
+            font-size: 12px;
+        }
     }
     &-block {
         background-color: #fff;
@@ -23,11 +26,17 @@
                 @media (max-width: 768px) {
                     width: 60px;
                 }
+                @media (max-width: 568px) {
+                    width: 40px;
+                }
             }
         }
     }
     &__res {
         margin-left: 36px;
+        @media (max-width: 568px) {
+            margin-left: 15px;
+        }
     }
     &-result {
         font-size: 36px;
@@ -35,5 +44,9 @@
         @media (max-width: 768px) {
             font-size: 25px;
         }
+        @media (max-width: 568px) {
+            font-size: 18px;
+        }
+        
     }
 }

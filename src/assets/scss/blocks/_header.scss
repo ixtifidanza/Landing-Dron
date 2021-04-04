@@ -37,6 +37,10 @@
             @media (max-width: 768px) {
                 font-size: 35px;
             }
+            @media (max-width: 568px) {
+                text-align: center;
+                margin-top: 47px;
+            }
         }
         &__text {
             width: 657px;
@@ -47,6 +51,16 @@
             }
             @media (max-width: 768px) {
                 font-size: 14px;
+            }
+            @media (max-width: 568px) {
+                text-align: center;
+                width: auto;
+            }
+        }
+        &__btns {
+            @media (max-width: 568px) {
+                display: flex;
+                justify-content: center;
             }
         }
         &__img {
@@ -62,6 +76,9 @@
             }
             @media (max-width: 768px) {
                 width: 40%;
+            }
+            @media (max-width: 568px) {
+                display: none;
             }
         }
     }

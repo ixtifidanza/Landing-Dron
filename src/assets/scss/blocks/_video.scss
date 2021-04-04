@@ -7,6 +7,9 @@
     height: 650px;
     position: relative;
     margin: 130px 0;
+    @media (max-width: 568px) {
+        margin-bottom: 90px;
+    }
     &-block {
         position: absolute;
         top: 50%;
@@ -20,11 +23,17 @@
             @media (max-width: 768px) {
                 font-size: 45px;
             }
+            @media (max-width: 568px) {
+                font-size: 48px;
+            }
         }
         &__text {
             text-align: center;
             color: #fff;
             margin: 25px 0;
+            @media (max-width: 568px) {
+                font-size: 15px;
+            }
         }
         &__player {
             display: flex;

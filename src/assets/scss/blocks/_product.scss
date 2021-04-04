@@ -12,6 +12,10 @@
         font-size: 18px;
         font-family: 'Montserrat', sans-serif;
         margin-top: 20px;
+        @media (max-width: 568px) {
+            font-size: 16px;
+        }
+
     }
     &-block {
         display: flex;
@@ -35,12 +39,20 @@
             width: 45%;
             margin: 15px 5px;
         }
+        @media (max-width: 568px) {
+            width: 100%;
+        }
         &__img  {
           background-color: #F1F1F1;  
           text-align: center;
           padding: 50px 55px; 
           display: flex;
           justify-content: center;
+          img {
+            @media (max-width: 568px) {
+                width: 150px;
+            }
+          }
      
         }
         &__text {
@@ -48,6 +60,9 @@
             margin-top: 25px;
             @media (max-width: 1200px) {
                 font-size: 20px;
+            }
+            @media (max-width: 568px) {
+                font-size: 16px;
             }
         }
         &__btn {

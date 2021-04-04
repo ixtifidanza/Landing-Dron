@@ -1,17 +1,27 @@
 .advantages {
     &-title {
         text-align: center;
-        font-size: 26px;
+        font-size: 35px;
         font-weight: bold;
         margin: 130px 0 81px 0;
+        @media (max-width: 768px) {
+            font-size: 50px;
+        }
+        @media (max-width: 568px) {
+            font-size: 35px;
+        }
     }
     
     &-block {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin-bottom: 50px;
         @media (max-width: 1200px) {
             margin-bottom: 100px;
+        }
+        @media (max-width: 425px) {
+            margin-bottom: 40px;
         }
     }
 
@@ -22,6 +32,9 @@
         margin-bottom: 36px;
         padding: 35px;
         box-shadow: 0 1px 7px rgba(138, 138, 138, 0.16);
+        @media (max-width: 768px) {
+            width: 100%;
+        }
         &__text {
             margin-left: 30px;
         }

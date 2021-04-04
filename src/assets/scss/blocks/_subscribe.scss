@@ -59,4 +59,7 @@
     margin-top: 40px;
     border-radius: 50%;
     box-shadow: 0 23px 25px 0  rgba(1, 107, 1, 0.19);
+    @media (max-width: 568px) {
+        width: 370px;
+    }
 }

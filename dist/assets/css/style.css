@@ -76,14 +76,6 @@ body {
     color: #fff;
 }
 
-.navbar-toggler .collapsed:focus {
-    outline: none;
-}
-
-.navbar-light .navbar-toggler:focus {
-    outline: none;
-}
-
 .header {
     background: url(../img/bg-style.jpg);
     background-position: center;
@@ -430,7 +422,7 @@ body {
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px 0;
+    padding: 100px 0 0;
     position: relative;
 }
 
@@ -627,13 +619,9 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.footer {
-    margin-top: 155px;
-}
-
 .advantages-title {
     text-align: center;
-    font-size: 26px;
+    font-size: 35px;
     font-weight: bold;
     margin: 130px 0 81px 0;
 }
@@ -647,6 +635,7 @@ body {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .advantages-item {
@@ -803,9 +792,6 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: start;
 }
 
 .products-text {
@@ -813,10 +799,6 @@ body {
     font-family: 'Montserrat' sans-serif;
     color: #7E7E7E;
     margin: 28px 0 100px;
-}
-
-.products-card {
-    width: 33.3%;
 }
 
 .products-card__text {
@@ -896,6 +878,11 @@ body {
     .advantages-block {
         margin-bottom: 100px;
     }
+
+    .certificate-item {
+        width: 46%;
+        padding: 22px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -908,7 +895,19 @@ body {
     }
 }
 
+@media (max-width: 992px) {
+    .certificate-item {
+        width: 100%;
+        padding: 40px;
+    }
+}
+
 @media (max-width: 768px) {
+    .navbar__btn {
+        width: 20%;
+        margin-top: 15px;
+    }
+
     .header {
         padding-bottom: 0;
     }
@@ -965,5 +964,176 @@ body {
 
     .review-title {
         font-size: 35px;
+    }
+
+    .about-title {
+        margin: 40px 0 70px 0;
+    }
+
+    .advantages-title {
+        font-size: 50px;
+    }
+
+    .advantages-item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 568px) {
+    .navbar__btn {
+        width: 25%;
+    }
+
+    .header-block__title {
+        text-align: center;
+        margin-top: 47px;
+    }
+
+    .header-block__text {
+        text-align: center;
+        width: auto;
+    }
+
+    .header-block__btns {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .header-block__img {
+        display: none;
+    }
+
+    .static-text {
+        font-size: 12px;
+    }
+
+    .static-block__item img {
+        width: 40px;
+    }
+
+    .static__res {
+        margin-left: 15px;
+    }
+
+    .static-result {
+        font-size: 18px;
+    }
+
+    .video {
+        margin-bottom: 90px;
+    }
+
+    .video-block__title {
+        font-size: 48px;
+    }
+
+    .video-block__text {
+        font-size: 15px;
+    }
+
+    .product-text {
+        font-size: 16px;
+    }
+
+    .product-item {
+        width: 100%;
+    }
+
+    .product-item__img img {
+        width: 150px;
+    }
+
+    .product-item__text {
+        font-size: 16px;
+    }
+
+    .input-group {
+        width: 370px;
+    }
+
+    .review-block__content {
+        margin-left: 15px;
+    }
+
+    .review-title {
+        font-size: 25px;
+    }
+
+    .review-profile {
+        margin: 25px 0;
+    }
+
+    .review-profile__name {
+        font-size: 20px;
+    }
+
+    .review-profile__job {
+        font-size: 16px;
+    }
+
+    .review-profile img {
+        width: 25%;
+    }
+
+    .review-text {
+        margin-bottom: 20px;
+    }
+
+    .review-arrows {
+        bottom: 4%;
+        right: 38%;
+    }
+
+    .footer-nav__link {
+        font-size: 13px;
+    }
+
+    .footer__copy {
+        font-size: 12px;
+    }
+
+    .advantages-title {
+        font-size: 35px;
+    }
+
+    .certificate-title {
+        font-size: 30px;
+    }
+
+    .certificate-item {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .certificate-item img {
+        width: 70px;
+    }
+
+    .products-title {
+        margin-top: 40px;
+        font-size: 45px;
+    }
+
+    .products-text {
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer-nav__link {
+        font-size: 8px;
+    }
+
+    .about-text {
+        font-size: 15px;
+    }
+
+    .advantages-block {
+        margin-bottom: 40px;
     }
 }
