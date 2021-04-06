@@ -5,10 +5,12 @@
 }
 
 body {
-   font-family: 'Roboto-Bold' serif;
+   font-family: 'Roboto' serif;
    font-weight: bold;
    overflow-x: hidden;
 }
+
+
 
 .swiper-container {
     width: 100%;
@@ -38,9 +40,6 @@ body {
 	width: 26px;
     -webkit-transition: 0.2s;
     transition: 0.2s;
-}
-
-@media (max-width: 1200px) {         
 }
 
 
