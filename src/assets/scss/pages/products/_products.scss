@@ -11,8 +11,11 @@
         }
     }
     &-block {
+        margin: 0 -10px;
         margin-bottom: 110px;
         display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
     }
     &-text {
         text-align: center;

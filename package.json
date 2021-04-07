@@ -26,9 +26,11 @@
     "panini": "^1.6.3"
   },
   "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
     "animate.css": "^4.1.0",
     "bootstrap": "^5.0.0-beta3",
     "flexboxgrid2": "^7.2.1",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "normalize.css": "^8.0.1",
     "pagepiling.js": "^1.5.6",

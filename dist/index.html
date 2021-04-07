@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="assets/css/libs.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
@@ -18,7 +20,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="assets/img/nav-logo.svg" alt=""></a>
+                    <a class="navbar-brand" href="index.html"><img src="assets/img/nav-logo.svg" alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -41,12 +43,14 @@
                         Полиэтиленовые трубы <br>
                         для водоснабжения
                     </h2>
-                    <p class="header-block__text">Повседневная практика показывает, что дальнейшее развитие <br>
-                        различных форм деятельности играет важную роль в формировании систем массового участия.</p>
-                        <div class="header-block__btns">
-                            <button type="button" class="btn header__btn">Заказать</button>
-                            <button type="button" class="btn header__btn mx-4">Посмотреть видео</button>
-                        </div>
+                    <p class="header-block__text">Повседневная практика показывает, что дальнейшее <br> развитие
+                        различных форм деятельности играет важную роль <br> в формировании систем массового участия.</p>
+                    <div class="header-block__btns">
+                        <a class="btn header__btn" href="desc.html">Заказать</a>
+                        <a class="btn header__btn header__btn--video  mx-4" data-fancybox
+                            href="https://www.youtube.com/watch?v=jsLUXz0UOeg&list=RDjsLUXz0UOeg&start_radio=1&ab_channel=Musica36">
+                            Посмотреть видео</a>
+                    </div>
                 </div>
                 <img class="header-block__img" src="assets/img/trubi_block.svg" alt="">
             </div>
@@ -89,7 +93,7 @@
             <h4 class="trusting-title">Почему нам доверяют</h4>
             <p class="trusting-subtitle">Повседневная практика показывает, что дальнейшее развитие <br> различных форм
                 деятельности играет важную роль.</p>
-                
+
             <div class="trusting-block">
                 <div class="trusting-block__item ">
                     <div class="trusting-block__card">
@@ -119,7 +123,7 @@
                         <img class="trusting-icon" src="assets/img/trus-ic-3.svg" alt="">
                     </div>
 
-                </div>      
+                </div>
 
                 <div class="trusting-block__item ">
                     <div class="trusting-img">
@@ -170,9 +174,9 @@
                 Повседневная практика показывает, что дальнейшее развитие <br> различных форм деятельности играет важную
                 роль.
             </p>
-            <a href="#" class="video-block__player">
-                <img src="assets/img/video player.svg" alt="">
-            </a>
+            <a class="video-block__player" data-fancybox
+                href="https://www.youtube.com/watch?v=NjnsKjdV8I0&ab_channel=%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D0%A4%D0%BE%D0%BA%D1%81">
+                <img src="assets/img/video player.svg" alt=""></a>
         </div>
     </section>
 
@@ -194,9 +198,9 @@
                                     <img src="assets/img/product-1.png" alt="">
                                 </div>
                                 <p class="product-item__text">
-                                    Адапторы
+                                    Адапторы 
                                 </p>
-                                <button type="button" class="btn product-item__btn">Cмотреть</button>
+                                <a href="desc.html" class="btn product-item__btn">Cмотреть</a>
                             </div>
 
                             <div class="product-item">
@@ -206,7 +210,7 @@
                                 <p class="product-item__text">
                                     Муфты
                                 </p>
-                                <button type="button" class="btn product-item__btn">Cмотреть</button>
+                                <a href="desc.html" class="btn product-item__btn">Cмотреть</a>
                             </div>
 
                             <div class="product-item">
@@ -216,7 +220,7 @@
                                 <p class="product-item__text">
                                     Заглушки
                                 </p>
-                                <button type="button" class="btn product-item__btn">Cмотреть</button>
+                                <a href="desc.html" class="btn product-item__btn">Cмотреть</a>
                             </div>
 
                             <div class="product-item">
@@ -226,7 +230,7 @@
                                 <p class="product-item__text">
                                     Переходы
                                 </p>
-                                <button type="button" class="btn product-item__btn">Cмотреть</button>
+                                <a href="desc.html" class="btn product-item__btn">Cмотреть</a>
                             </div>
 
                             <div class="product-item">
@@ -236,7 +240,7 @@
                                 <p class="product-item__text">
                                     Углы
                                 </p>
-                                <button type="button" class="btn product-item__btn">Cмотреть</button>
+                                <a href="desc.html" class="btn product-item__btn">Cмотреть</a>
                             </div>
 
                             <div class="product-item">
@@ -246,10 +250,11 @@
                                 <p class="product-item__text">
                                     Фланцевые адапторы
                                 </p>
-                                <button type="button" class="btn product-item__btn">Cмотреть</button>
+                                <a href="desc.html" class="btn product-item__btn">Cмотреть</a>
                             </div>
                         </div>
                     </div>
+
                     <div class="swiper-slide">
                         <div class="product-block">
                             <div class="product-item">
@@ -259,7 +264,7 @@
                                 <p class="product-item__text">
                                     Адапторы
                                 </p>
-                                <button type="button" class="btn product-item__btn">Cмотреть</button>
+                                <a href="desc.html" class="btn product-item__btn">Cмотреть</a>
                             </div>
 
                             <div class="product-item">
@@ -267,9 +272,9 @@
                                     <img src="assets/img/product-2.png" alt="">
                                 </div>
                                 <p class="product-item__text">
-                                    Адапторы
+                                    Муфты
                                 </p>
-                                <button type="button" class="btn product-item__btn">Cмотреть</button>
+                                <a href="desc.html" class="btn product-item__btn">Cмотреть</a>
                             </div>
 
                             <div class="product-item">
@@ -277,9 +282,9 @@
                                     <img src="assets/img/product-3.png" alt="">
                                 </div>
                                 <p class="product-item__text">
-                                    Адапторы
+                                    Заглушки
                                 </p>
-                                <button type="button" class="btn product-item__btn">Cмотреть</button>
+                                <a href="desc.html" class="btn product-item__btn">Cмотреть</a>
                             </div>
 
                             <div class="product-item">
@@ -287,9 +292,9 @@
                                     <img src="assets/img/product-4.png" alt="">
                                 </div>
                                 <p class="product-item__text">
-                                    Адапторы
+                                    Переходы
                                 </p>
-                                <button type="button" class="btn product-item__btn">Cмотреть</button>
+                                <a href="desc.html" class="btn product-item__btn">Cмотреть</a>
                             </div>
 
                             <div class="product-item">
@@ -297,9 +302,9 @@
                                     <img src="assets/img/product-5.png" alt="">
                                 </div>
                                 <p class="product-item__text">
-                                    Адапторы
+                                    Углы
                                 </p>
-                                <button type="button" class="btn product-item__btn">Cмотреть</button>
+                                <a href="desc.html" class="btn product-item__btn">Cмотреть</a>
                             </div>
 
                             <div class="product-item">
@@ -307,12 +312,13 @@
                                     <img src="assets/img/product-6.png" alt="">
                                 </div>
                                 <p class="product-item__text">
-                                    Адапторы
+                                    Фланцевые адапторы
                                 </p>
-                                <button type="button" class="btn product-item__btn">Cмотреть</button>
+                                <a href="desc.html" class="btn product-item__btn">Cмотреть</a>
                             </div>
                         </div>
                     </div>
+
                     <div class="swiper-slide">
                         <div class="product-block">
                             <div class="product-item">
@@ -322,7 +328,7 @@
                                 <p class="product-item__text">
                                     Адапторы
                                 </p>
-                                <button type="button" class="btn product-item__btn">Cмотреть</button>
+                                <a href="desc.html" class="btn product-item__btn">Cмотреть</a>
                             </div>
 
                             <div class="product-item">
@@ -330,9 +336,9 @@
                                     <img src="assets/img/product-2.png" alt="">
                                 </div>
                                 <p class="product-item__text">
-                                    Адапторы
+                                    Муфты
                                 </p>
-                                <button type="button" class="btn product-item__btn">Cмотреть</button>
+                                <a href="desc.html" class="btn product-item__btn">Cмотреть</a>
                             </div>
 
                             <div class="product-item">
@@ -340,9 +346,9 @@
                                     <img src="assets/img/product-3.png" alt="">
                                 </div>
                                 <p class="product-item__text">
-                                    Адапторы
+                                    Заглушки
                                 </p>
-                                <button type="button" class="btn product-item__btn">Cмотреть</button>
+                                <a href="desc.html" class="btn product-item__btn">Cмотреть</a>
                             </div>
 
                             <div class="product-item">
@@ -350,9 +356,9 @@
                                     <img src="assets/img/product-4.png" alt="">
                                 </div>
                                 <p class="product-item__text">
-                                    Адапторы
+                                    Переходы
                                 </p>
-                                <button type="button" class="btn product-item__btn">Cмотреть</button>
+                                <a href="desc.html" class="btn product-item__btn">Cмотреть</a>
                             </div>
 
                             <div class="product-item">
@@ -360,9 +366,9 @@
                                     <img src="assets/img/product-5.png" alt="">
                                 </div>
                                 <p class="product-item__text">
-                                    Адапторы
+                                    Углы
                                 </p>
-                                <button type="button" class="btn product-item__btn">Cмотреть</button>
+                                <a href="desc.html" class="btn product-item__btn">Cмотреть</a>
                             </div>
 
                             <div class="product-item">
@@ -370,9 +376,9 @@
                                     <img src="assets/img/product-6.png" alt="">
                                 </div>
                                 <p class="product-item__text">
-                                    Адапторы
+                                    Фланцевые адапторы
                                 </p>
-                                <button type="button" class="btn product-item__btn">Cмотреть</button>
+                                <a href="desc.html" class="btn product-item__btn">Cмотреть</a>
                             </div>
                         </div>
                     </div>
@@ -487,24 +493,18 @@
                 </p>
                 <ul class="footer-social">
                     <li class="footer-social__item">
-                        <a href="#" class="footer-social__link">
-                            <div class="footer-social__icon">
-                                <img src="assets/img/facebook.svg" alt="">
-                            </div>
+                        <a class="footer-social__icon">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li class="footer-social__item">
-                        <a href="#" class="footer-social__link">
-                            <div class="footer-social__icon">
-                                <img src="assets/img/instagram.svg" alt="">
-                            </div>
+                        <a class="footer-social__icon">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li class="footer-social__item">
-                        <a href="#" class="footer-social__link">
-                            <div class="footer-social__icon">
-                                <img src="assets/img/telegram.svg" alt="">
-                            </div>
+                        <a class="footer-social__icon">
+                            <i class="fa fa-telegram" aria-hidden="true"></i>
                         </a>
                     </li>
 

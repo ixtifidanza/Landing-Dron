@@ -104,6 +104,8 @@ function libsCss() {
         'node_modules/normalize.css/normalize.css',
         'node_modules/bootstrap/dist/css/bootstrap.min.css',
         'node_modules/swiper/swiper-bundle.min.css',
+        'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css',
+        // 'node_modules/font-awesome/css/font-awesome.min.css'
         // 'node_modules/slick-carousel/slick/slick.css',
         // 'node_modules/slick-carousel/slick/slick-theme.css'
         // 'node_modules/flexboxgrid2/flexboxgrid2.css',
@@ -146,6 +148,7 @@ function libsJs() {
         'node_modules/jquery/dist/jquery.js',
         'node_modules/bootstrap/dist/js/bootstrap.min.js',
         'node_modules/swiper/swiper-bundle.min.js',
+        'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js',
         // 'node_modules/slick-carousel/slick/slick.js',
         // 'node_modules/pagepiling.js/dist/jquery.pagepiling.js',
         // 'node_modules/selectric/public/jquery.selectric.js',

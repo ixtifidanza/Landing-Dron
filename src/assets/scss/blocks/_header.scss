@@ -15,10 +15,16 @@
     &__btn {
         width: 200px;
         font-weight: bold;
+        font-family: 'Montserrat';
         border-radius: 29px;
-        padding: 10px 0;
+        padding: 15px 0;
         background: #41B834;
         color: #fff;
+        &--video {
+            background-color: #fff;
+            color: #41B834;
+            border-color: #41B834;
+        }
         &:hover {
             background-color: #fff;
             color: #41B834;
@@ -43,11 +49,12 @@
             }
         }
         &__text {
-            width: 657px;
             font-size: 20px;
             margin-bottom: 65px;
             font-family: 'Montserrat';
+            font-weight: 500;
             color: #7E7E7E;
+            line-height: 2;
             @media (max-width: 1200px) {
                 font-size: 16px;
             }
