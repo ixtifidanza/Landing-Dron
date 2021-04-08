@@ -1,5 +1,8 @@
 .certificate {
     margin-bottom: 150px;
+    @media (max-width: 425px) {
+        margin-bottom: 80px;
+    }
     &-title {
         text-align: center;
         font-size: 60px;
@@ -7,6 +10,9 @@
         margin: 116px 0 129px 0; 
         @media (max-width: 568px) {
             font-size: 30px;
+        }
+        @media (max-width: 425px) {
+            margin: 70px 0;
         }
     }
     &-block {       
@@ -37,25 +43,36 @@
             @media (max-width: 568px) {
                 width: 70px;
             }
+            @media (max-width: 425px) {
+                width: 40px;
+            }
         }
         &__text {
            margin: 20px 0;
            font-family: 'Montserrat', sans-serif; 
            color: #7E7E7E;
+            @media (max-width: 425px) {
+                font-size: 10px;
+            }
         }
         &__title {
             font-size: 24px;
             font-weight: bold;
             color: #313131;
+            @media (max-width: 425px) {
+                font-size: 18px;
+            }
         }
         &__link {
             font-family: 'Montserrat', sans-serif;
             color: #41B834;
             text-decoration: none;
+            @media (max-width: 425px) {
+                font-size: 14px;
+            }
         }
     }
     
-
     &-content  {
         margin-left: 39px;
     }

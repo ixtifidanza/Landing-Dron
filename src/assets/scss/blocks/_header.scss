@@ -24,6 +24,9 @@
             background-color: #fff;
             color: #41B834;
             border-color: #41B834;
+            @media (max-width: 425px) {
+                margin-top: 15px;
+            }
         }
         &:hover {
             background-color: #fff;
@@ -37,8 +40,10 @@
             font-size: 60px;
             margin-top: 140px;
             margin-bottom: 47px;
-            @media (max-width: 1200px) {
+            @media (max-width: 1024px) {
                 font-size: 50px;
+                text-align: center;
+                margin-top: 50px;
             }
             @media (max-width: 768px) {
                 font-size: 35px;
@@ -46,6 +51,9 @@
             @media (max-width: 568px) {
                 text-align: center;
                 margin-top: 47px;
+            }
+            @media (max-width: 425px) {
+                font-size: 27px;
             }
         }
         &__text {
@@ -55,8 +63,9 @@
             font-weight: 500;
             color: #7E7E7E;
             line-height: 2;
-            @media (max-width: 1200px) {
+            @media (max-width: 1024px) {
                 font-size: 16px;
+                text-align: center;
             }
             @media (max-width: 768px) {
                 font-size: 14px;
@@ -65,10 +74,18 @@
                 text-align: center;
                 width: auto;
             }
+            @media (max-width: 425px) {
+                font-size: 10px;
+            }
         }
         &__btns {
-            @media (max-width: 568px) {
+            @media (max-width: 1024px) {
                 display: flex;
+                justify-content: center;
+            }
+            @media (max-width: 425px) {
+                flex-direction: column;
+                align-items: center;
                 justify-content: center;
             }
         }
@@ -81,12 +98,6 @@
                 top: 20%;
             }
             @media (max-width: 1024px) {
-                top: 30%;
-            }
-            @media (max-width: 768px) {
-                width: 40%;
-            }
-            @media (max-width: 568px) {
                 display: none;
             }
         }

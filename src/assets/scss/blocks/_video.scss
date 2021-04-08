@@ -26,6 +26,9 @@
             @media (max-width: 568px) {
                 font-size: 48px;
             }
+            @media (max-width: 425px) {
+                font-size: 30px;
+            }
         }
         &__text {
             text-align: center;
@@ -33,6 +36,9 @@
             margin: 25px 0;
             @media (max-width: 568px) {
                 font-size: 15px;
+            }
+            @media (max-width: 425px) {
+                font-size: 13px;
             }
         }
         &__player {

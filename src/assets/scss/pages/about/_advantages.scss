@@ -10,6 +10,9 @@
         @media (max-width: 568px) {
             font-size: 35px;
         }
+        @media (max-width: 425px) {
+            font-size: 28px;
+        }
     }
     
     &-block {
@@ -35,8 +38,16 @@
         @media (max-width: 768px) {
             width: 100%;
         }
+        img {
+            @media (max-width: 425px) {
+                width: 50px;
+            }
+        }
         &__text {
             margin-left: 30px;
+            @media (max-width: 425px) {
+                font-size: 14px;
+            }
         }
     }
 

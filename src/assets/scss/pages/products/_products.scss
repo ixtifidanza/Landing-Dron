@@ -16,6 +16,13 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: start;
+        @media (max-width: 768px) {
+            justify-content: space-between;
+            padding: 0;
+        }
+        @media (max-width: 568px) {
+            justify-content: center;
+        }
     }
     &-text {
         text-align: center;
@@ -28,6 +35,7 @@
         }
     }
     &-card {
+     
         &__text {
             text-align: center;
             font-family: 'Montserrat' sans-serif;
